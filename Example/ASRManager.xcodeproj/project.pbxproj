@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0FC6C5CA6EF20909A23D9DA2 /* libPods-ASRManager.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 784CF781F8ACED5BC83E35D3 /* libPods-ASRManager.a */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -22,6 +23,10 @@
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
+		B57191DE8B058DD288EA2817 /* libPods-Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 46718F91FCBFF333AA241D5B /* libPods-Tests.a */; };
+		C7C9B67D1AD5F699008E30E4 /* ASRManager.mm in Sources */ = {isa = PBXBuildFile; fileRef = C7C9B67B1AD5F699008E30E4 /* ASRManager.mm */; };
+		C7C9B6841AD5F6B2008E30E4 /* libAreteUart.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C7C9B6801AD5F6B2008E30E4 /* libAreteUart.a */; };
+		C7C9B6861AD5F71A008E30E4 /* ExternalAccessory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7C9B6851AD5F71A008E30E4 /* ExternalAccessory.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +40,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		42B3FDF420BC8C50A22F4266 /* ASRManager.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = ASRManager.podspec; path = ../ASRManager.podspec; sourceTree = "<group>"; };
+		08609F3D2549B837C0F25A7C /* Pods-ASRManager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ASRManager.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ASRManager/Pods-ASRManager.debug.xcconfig"; sourceTree = "<group>"; };
+		15BC5F5DC380D75A5C173DE1 /* Pods-Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tests/Pods-Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		2068A4D57710292F6E5AD84D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		46718F91FCBFF333AA241D5B /* libPods-Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5732ED817CAF318CE78DCEB2 /* ASRManager.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ASRManager.podspec; path = ../ASRManager.podspec; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* ASRManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ASRManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -57,8 +66,18 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		7C70694F974A8F2ED032D73F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		A8D767DCDAAB693428420031 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		784CF781F8ACED5BC83E35D3 /* libPods-ASRManager.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ASRManager.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B34EFEA662420805AB6784A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		B24E9D7FC4A7DAAE52BB0DED /* Pods-Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tests/Pods-Tests.release.xcconfig"; sourceTree = "<group>"; };
+		B932C839F65F60AB021B92B6 /* Pods-ASRManager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ASRManager.release.xcconfig"; path = "Pods/Target Support Files/Pods-ASRManager/Pods-ASRManager.release.xcconfig"; sourceTree = "<group>"; };
+		C7C9B67B1AD5F699008E30E4 /* ASRManager.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ASRManager.mm; sourceTree = "<group>"; };
+		C7C9B67C1AD5F699008E30E4 /* ASRManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASRManager.h; sourceTree = "<group>"; };
+		C7C9B67F1AD5F6B2008E30E4 /* Eas.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Eas.h; sourceTree = "<group>"; };
+		C7C9B6801AD5F6B2008E30E4 /* libAreteUart.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libAreteUart.a; sourceTree = "<group>"; };
+		C7C9B6811AD5F6B2008E30E4 /* RcpBarcodeApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RcpBarcodeApi.h; sourceTree = "<group>"; };
+		C7C9B6821AD5F6B2008E30E4 /* RcpRfidApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RcpRfidApi.h; sourceTree = "<group>"; };
+		C7C9B6831AD5F6B2008E30E4 /* UartMgr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UartMgr.h; sourceTree = "<group>"; };
+		C7C9B6851AD5F71A008E30E4 /* ExternalAccessory.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ExternalAccessory.framework; path = System/Library/Frameworks/ExternalAccessory.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,9 +85,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7C9B6861AD5F71A008E30E4 /* ExternalAccessory.framework in Frameworks */,
+				C7C9B6841AD5F6B2008E30E4 /* libAreteUart.a in Frameworks */,
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
+				0FC6C5CA6EF20909A23D9DA2 /* libPods-ASRManager.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,12 +101,24 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
+				B57191DE8B058DD288EA2817 /* libPods-Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4B6B3BBE743D2D8972C2EAB3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				08609F3D2549B837C0F25A7C /* Pods-ASRManager.debug.xcconfig */,
+				B932C839F65F60AB021B92B6 /* Pods-ASRManager.release.xcconfig */,
+				15BC5F5DC380D75A5C173DE1 /* Pods-Tests.debug.xcconfig */,
+				B24E9D7FC4A7DAAE52BB0DED /* Pods-Tests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
@@ -93,6 +127,7 @@
 				6003F5B5195388D20070C39A /* Tests */,
 				6003F58C195388D20070C39A /* Frameworks */,
 				6003F58B195388D20070C39A /* Products */,
+				4B6B3BBE743D2D8972C2EAB3 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -108,10 +143,13 @@
 		6003F58C195388D20070C39A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C7C9B6851AD5F71A008E30E4 /* ExternalAccessory.framework */,
 				6003F58D195388D20070C39A /* Foundation.framework */,
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
+				784CF781F8ACED5BC83E35D3 /* libPods-ASRManager.a */,
+				46718F91FCBFF333AA241D5B /* libPods-Tests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -119,6 +157,9 @@
 		6003F593195388D20070C39A /* ASRManager */ = {
 			isa = PBXGroup;
 			children = (
+				C7C9B67E1AD5F6B2008E30E4 /* RcpLib */,
+				C7C9B67B1AD5F699008E30E4 /* ASRManager.mm */,
+				C7C9B67C1AD5F699008E30E4 /* ASRManager.h */,
 				6003F59C195388D20070C39A /* ASRAppDelegate.h */,
 				6003F59D195388D20070C39A /* ASRAppDelegate.m */,
 				6003F59F195388D20070C39A /* Main_iPhone.storyboard */,
@@ -164,11 +205,23 @@
 		60FF7A9C1954A5C5007DD14C /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
-				42B3FDF420BC8C50A22F4266 /* ASRManager.podspec */,
-				7C70694F974A8F2ED032D73F /* README.md */,
-				A8D767DCDAAB693428420031 /* LICENSE */,
+				5732ED817CAF318CE78DCEB2 /* ASRManager.podspec */,
+				7B34EFEA662420805AB6784A /* README.md */,
+				2068A4D57710292F6E5AD84D /* LICENSE */,
 			);
 			name = "Podspec Metadata";
+			sourceTree = "<group>";
+		};
+		C7C9B67E1AD5F6B2008E30E4 /* RcpLib */ = {
+			isa = PBXGroup;
+			children = (
+				C7C9B67F1AD5F6B2008E30E4 /* Eas.h */,
+				C7C9B6801AD5F6B2008E30E4 /* libAreteUart.a */,
+				C7C9B6811AD5F6B2008E30E4 /* RcpBarcodeApi.h */,
+				C7C9B6821AD5F6B2008E30E4 /* RcpRfidApi.h */,
+				C7C9B6831AD5F6B2008E30E4 /* UartMgr.h */,
+			);
+			path = RcpLib;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -178,9 +231,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "ASRManager" */;
 			buildPhases = (
+				689DA883B697E013C8582F88 /* Check Pods Manifest.lock */,
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
+				A70095E6C39B4AEA71342371 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -195,9 +250,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "Tests" */;
 			buildPhases = (
+				5804A68FB3F1540B7B678F84 /* Check Pods Manifest.lock */,
 				6003F5AA195388D20070C39A /* Sources */,
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
+				E4E6AE8EFA2C5956252821DB /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -224,7 +281,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 6003F585195388D10070C39A /* Build configuration list for PBXProject "PROJECT" */;
+			buildConfigurationList = 6003F585195388D10070C39A /* Build configuration list for PBXProject "ASRManager" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -265,6 +322,69 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5804A68FB3F1540B7B678F84 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		689DA883B697E013C8582F88 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A70095E6C39B4AEA71342371 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ASRManager/Pods-ASRManager-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E4E6AE8EFA2C5956252821DB /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tests/Pods-Tests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6003F586195388D20070C39A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -273,6 +393,7 @@
 				6003F59E195388D20070C39A /* ASRAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* ASRViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				C7C9B67D1AD5F699008E30E4 /* ASRManager.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -404,12 +525,19 @@
 		};
 		6003F5C0195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08609F3D2549B837C0F25A7C /* Pods-ASRManager.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Kazuya Oda (VSLAH257GL)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Kazuya Oda (VSLAH257GL)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ASRManager/ASRManager-Prefix.pch";
 				INFOPLIST_FILE = "ASRManager/ASRManager-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ASRManager/RcpLib",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -417,12 +545,19 @@
 		};
 		6003F5C1195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B932C839F65F60AB021B92B6 /* Pods-ASRManager.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Asterisk Inc.";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Asterisk Inc.";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ASRManager/ASRManager-Prefix.pch";
 				INFOPLIST_FILE = "ASRManager/ASRManager-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ASRManager/RcpLib",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -430,6 +565,7 @@
 		};
 		6003F5C3195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15BC5F5DC380D75A5C173DE1 /* Pods-Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ASRManager.app/ASRManager";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -452,6 +588,7 @@
 		};
 		6003F5C4195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B24E9D7FC4A7DAAE52BB0DED /* Pods-Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ASRManager.app/ASRManager";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -471,7 +608,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6003F585195388D10070C39A /* Build configuration list for PBXProject "PROJECT" */ = {
+		6003F585195388D10070C39A /* Build configuration list for PBXProject "ASRManager" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6003F5BD195388D20070C39A /* Debug */,

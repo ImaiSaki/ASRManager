@@ -1,0 +1,580 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		44F4BA28F66B00B6D1510F4B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39C1D683542EBE63AD949DC5 /* Foundation.framework */; };
+		97735ABA8D1D0351F151E161 /* Pods-Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 100D2177AF40304A5FD3D357 /* Pods-Tests-dummy.m */; };
+		F6E1FE4D7CD3722C85D55934 /* Pods-ASRManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EE97B66CA95C0926361DA9B /* Pods-ASRManager-dummy.m */; };
+		FCAB963E50536A2953F3D8EC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39C1D683542EBE63AD949DC5 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		397C5C752ACEE835FF43D64E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 45FD84CD3A5510FA244D2071 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB8547D63E94299A7CCFF02E;
+			remoteInfo = "Pods-ASRManager-ASRManager-ASRManager";
+		};
+		41A307E2F62200A623142193 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 45FD84CD3A5510FA244D2071 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 98C7870E73C9EF44F9FFD4C1;
+			remoteInfo = "Pods-Tests-ASRManager-ASRManager";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00B36E3B307FAC6D9A94006C /* ASRManager.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ASRManager.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		100D2177AF40304A5FD3D357 /* Pods-Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Tests-dummy.m"; sourceTree = "<group>"; };
+		165514367BDE3D5841FF15CD /* Pods-Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tests.release.xcconfig"; sourceTree = "<group>"; };
+		1D8549BD6AAF4A20F3C31CD3 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		2016C915113A9638C94EC5D5 /* libPods-ASRManager.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ASRManager.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		246DD7761E3460AC2DA7204A /* Pods-Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		39C1D683542EBE63AD949DC5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		473D56C2187BFBA7E4B554D3 /* Pods-ASRManager-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ASRManager-acknowledgements.markdown"; sourceTree = "<group>"; };
+		47EC620E207B578E431EDFB0 /* Pods-ASRManager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ASRManager.release.xcconfig"; sourceTree = "<group>"; };
+		54091E5E0324E64B4053C3E3 /* Pods-Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Tests-resources.sh"; sourceTree = "<group>"; };
+		54F1ABC0A90490E5AD1DDE5F /* Pods-Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5EE97B66CA95C0926361DA9B /* Pods-ASRManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ASRManager-dummy.m"; sourceTree = "<group>"; };
+		68F6AF1C4B078AF180FA688B /* libPods-Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		70EB7173FBBA9BB051903297 /* Pods-ASRManager-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ASRManager-acknowledgements.plist"; sourceTree = "<group>"; };
+		7225E4974906707AC6F028C3 /* Pods-ASRManager-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ASRManager-environment.h"; sourceTree = "<group>"; };
+		813541CA94FACEEEEC2A5027 /* Pods-Tests-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Tests-environment.h"; sourceTree = "<group>"; };
+		91790598CB2720D20AD3CB42 /* Pods-ASRManager-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ASRManager-resources.sh"; sourceTree = "<group>"; };
+		A11CC4876F39263400FD6150 /* ASRManager.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ASRManager.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2F705C59E99A0169BA6F9AB /* Pods-Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		D627CC84E7911BB68F2F40CE /* Pods-ASRManager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ASRManager.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		06568970338C5F566AD5506E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCAB963E50536A2953F3D8EC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BE84A3F1A3EEA9ECF694F3A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6C100E1C25C42B04AFA93F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44F4BA28F66B00B6D1510F4B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6A6CE536CAFFED03EE03BD8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0C47F4548E2C8CAD8BEB4080 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D4DBA6411052387034A1FC3D /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3140B3D16791B223A226D96E = {
+			isa = PBXGroup;
+			children = (
+				1D8549BD6AAF4A20F3C31CD3 /* Podfile */,
+				559A2CA2C29792D4909CFD16 /* Development Pods */,
+				0C47F4548E2C8CAD8BEB4080 /* Frameworks */,
+				5C6DDC79E1F6056E03766DA4 /* Products */,
+				F50FFF0E8188056446934868 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		4780CCE70CB5293586074C98 /* ASRManager */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = ASRManager;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		559A2CA2C29792D4909CFD16 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4780CCE70CB5293586074C98 /* ASRManager */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		5C6DDC79E1F6056E03766DA4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				00B36E3B307FAC6D9A94006C /* ASRManager.bundle */,
+				A11CC4876F39263400FD6150 /* ASRManager.bundle */,
+				2016C915113A9638C94EC5D5 /* libPods-ASRManager.a */,
+				68F6AF1C4B078AF180FA688B /* libPods-Tests.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B3F09539D92FC42CF52CCF69 /* Pods-ASRManager */ = {
+			isa = PBXGroup;
+			children = (
+				473D56C2187BFBA7E4B554D3 /* Pods-ASRManager-acknowledgements.markdown */,
+				70EB7173FBBA9BB051903297 /* Pods-ASRManager-acknowledgements.plist */,
+				5EE97B66CA95C0926361DA9B /* Pods-ASRManager-dummy.m */,
+				7225E4974906707AC6F028C3 /* Pods-ASRManager-environment.h */,
+				91790598CB2720D20AD3CB42 /* Pods-ASRManager-resources.sh */,
+				D627CC84E7911BB68F2F40CE /* Pods-ASRManager.debug.xcconfig */,
+				47EC620E207B578E431EDFB0 /* Pods-ASRManager.release.xcconfig */,
+			);
+			name = "Pods-ASRManager";
+			path = "Target Support Files/Pods-ASRManager";
+			sourceTree = "<group>";
+		};
+		C3EF4DAC67D13ED3E944EB39 /* Pods-Tests */ = {
+			isa = PBXGroup;
+			children = (
+				54F1ABC0A90490E5AD1DDE5F /* Pods-Tests-acknowledgements.markdown */,
+				246DD7761E3460AC2DA7204A /* Pods-Tests-acknowledgements.plist */,
+				100D2177AF40304A5FD3D357 /* Pods-Tests-dummy.m */,
+				813541CA94FACEEEEC2A5027 /* Pods-Tests-environment.h */,
+				54091E5E0324E64B4053C3E3 /* Pods-Tests-resources.sh */,
+				B2F705C59E99A0169BA6F9AB /* Pods-Tests.debug.xcconfig */,
+				165514367BDE3D5841FF15CD /* Pods-Tests.release.xcconfig */,
+			);
+			name = "Pods-Tests";
+			path = "Target Support Files/Pods-Tests";
+			sourceTree = "<group>";
+		};
+		D4DBA6411052387034A1FC3D /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				39C1D683542EBE63AD949DC5 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		F50FFF0E8188056446934868 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B3F09539D92FC42CF52CCF69 /* Pods-ASRManager */,
+				C3EF4DAC67D13ED3E944EB39 /* Pods-Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0AEB1C346674D471BF52A007 /* Pods-ASRManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5EC6A768D5E77BA23A22CA29 /* Build configuration list for PBXNativeTarget "Pods-ASRManager" */;
+			buildPhases = (
+				C3CB80ED43279A4B848A8103 /* Sources */,
+				06568970338C5F566AD5506E /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				904AEB912722BA47853FD4DD /* PBXTargetDependency */,
+			);
+			name = "Pods-ASRManager";
+			productName = "Pods-ASRManager";
+			productReference = 2016C915113A9638C94EC5D5 /* libPods-ASRManager.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		98C7870E73C9EF44F9FFD4C1 /* Pods-Tests-ASRManager-ASRManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9BD36389EC519D8DE23067B0 /* Build configuration list for PBXNativeTarget "Pods-Tests-ASRManager-ASRManager" */;
+			buildPhases = (
+				6ED1434F87C8A6EF3748F624 /* Sources */,
+				F6A6CE536CAFFED03EE03BD8 /* Frameworks */,
+				CC13713A819B7120FAC160E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Tests-ASRManager-ASRManager";
+			productName = "Pods-Tests-ASRManager-ASRManager";
+			productReference = A11CC4876F39263400FD6150 /* ASRManager.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		D932C3BC82D4E2B4C26F20E7 /* Pods-Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E747C590D5A468FE8642A8F /* Build configuration list for PBXNativeTarget "Pods-Tests" */;
+			buildPhases = (
+				A573370EFCA735BD876B731C /* Sources */,
+				B6C100E1C25C42B04AFA93F2 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				53E097D0515586D291BFB272 /* PBXTargetDependency */,
+			);
+			name = "Pods-Tests";
+			productName = "Pods-Tests";
+			productReference = 68F6AF1C4B078AF180FA688B /* libPods-Tests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		DB8547D63E94299A7CCFF02E /* Pods-ASRManager-ASRManager-ASRManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA6E0A305B43DA656252B473 /* Build configuration list for PBXNativeTarget "Pods-ASRManager-ASRManager-ASRManager" */;
+			buildPhases = (
+				2A81B18DD99B0A984FB12616 /* Sources */,
+				2BE84A3F1A3EEA9ECF694F3A /* Frameworks */,
+				98A9BD3E49281E83953570AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-ASRManager-ASRManager-ASRManager";
+			productName = "Pods-ASRManager-ASRManager-ASRManager";
+			productReference = 00B36E3B307FAC6D9A94006C /* ASRManager.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		45FD84CD3A5510FA244D2071 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+			};
+			buildConfigurationList = 410D7589E8A21045D4F5D8AD /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3140B3D16791B223A226D96E;
+			productRefGroup = 5C6DDC79E1F6056E03766DA4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0AEB1C346674D471BF52A007 /* Pods-ASRManager */,
+				DB8547D63E94299A7CCFF02E /* Pods-ASRManager-ASRManager-ASRManager */,
+				D932C3BC82D4E2B4C26F20E7 /* Pods-Tests */,
+				98C7870E73C9EF44F9FFD4C1 /* Pods-Tests-ASRManager-ASRManager */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		98A9BD3E49281E83953570AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC13713A819B7120FAC160E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2A81B18DD99B0A984FB12616 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6ED1434F87C8A6EF3748F624 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A573370EFCA735BD876B731C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97735ABA8D1D0351F151E161 /* Pods-Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3CB80ED43279A4B848A8103 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6E1FE4D7CD3722C85D55934 /* Pods-ASRManager-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		53E097D0515586D291BFB272 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Tests-ASRManager-ASRManager";
+			target = 98C7870E73C9EF44F9FFD4C1 /* Pods-Tests-ASRManager-ASRManager */;
+			targetProxy = 41A307E2F62200A623142193 /* PBXContainerItemProxy */;
+		};
+		904AEB912722BA47853FD4DD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-ASRManager-ASRManager-ASRManager";
+			target = DB8547D63E94299A7CCFF02E /* Pods-ASRManager-ASRManager-ASRManager */;
+			targetProxy = 397C5C752ACEE835FF43D64E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0F1B484F9AC2D33E03833DAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = ASRManager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		13322B3E9D0F062711ED2B3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 165514367BDE3D5841FF15CD /* Pods-Tests.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		14247402A4F636FA0A620456 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2F705C59E99A0169BA6F9AB /* Pods-Tests.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		312F2B2BDE8A950497C4D4AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = ASRManager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		3575630DA43BC40A3023B8B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		388C1CA5D050DA9C9D579FD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47EC620E207B578E431EDFB0 /* Pods-ASRManager.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		5CEA9475BFBF19E0E648EFB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = ASRManager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		8DA49DC4CDFE96D5337640BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		A6B4282A872C80B8E4EC6D9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = ASRManager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		B6CAB6967172A8944DD98A91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D627CC84E7911BB68F2F40CE /* Pods-ASRManager.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1E747C590D5A468FE8642A8F /* Build configuration list for PBXNativeTarget "Pods-Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14247402A4F636FA0A620456 /* Debug */,
+				13322B3E9D0F062711ED2B3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		410D7589E8A21045D4F5D8AD /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DA49DC4CDFE96D5337640BB /* Debug */,
+				3575630DA43BC40A3023B8B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5EC6A768D5E77BA23A22CA29 /* Build configuration list for PBXNativeTarget "Pods-ASRManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6CAB6967172A8944DD98A91 /* Debug */,
+				388C1CA5D050DA9C9D579FD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9BD36389EC519D8DE23067B0 /* Build configuration list for PBXNativeTarget "Pods-Tests-ASRManager-ASRManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F1B484F9AC2D33E03833DAD /* Debug */,
+				5CEA9475BFBF19E0E648EFB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA6E0A305B43DA656252B473 /* Build configuration list for PBXNativeTarget "Pods-ASRManager-ASRManager-ASRManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6B4282A872C80B8E4EC6D9F /* Debug */,
+				312F2B2BDE8A950497C4D4AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 45FD84CD3A5510FA244D2071 /* Project object */;
+}

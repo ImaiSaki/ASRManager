@@ -1,0 +1,14 @@
+PODS:
+  - ASRManager (0.1.0)
+
+DEPENDENCIES:
+  - ASRManager (from `../`)
+
+EXTERNAL SOURCES:
+  ASRManager:
+    :path: ../
+
+SPEC CHECKSUMS:
+  ASRManager: 2fc58bc52b64307aaecff02ea12bd9f9a38a3761
+
+COCOAPODS: 0.36.3
