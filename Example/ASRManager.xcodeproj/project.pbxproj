@@ -24,8 +24,8 @@
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		B57191DE8B058DD288EA2817 /* libPods-Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 46718F91FCBFF333AA241D5B /* libPods-Tests.a */; };
-		C7C9B67D1AD5F699008E30E4 /* ASRManager.mm in Sources */ = {isa = PBXBuildFile; fileRef = C7C9B67B1AD5F699008E30E4 /* ASRManager.mm */; };
-		C7C9B6841AD5F6B2008E30E4 /* libAreteUart.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C7C9B6801AD5F6B2008E30E4 /* libAreteUart.a */; };
+		C740BED21ADFB19600ACEEFB /* libAreteUart.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C740BECE1ADFB19600ACEEFB /* libAreteUart.a */; };
+		C740BED51ADFB23700ACEEFB /* ASRManager.mm in Sources */ = {isa = PBXBuildFile; fileRef = C740BED41ADFB23700ACEEFB /* ASRManager.mm */; };
 		C7C9B6861AD5F71A008E30E4 /* ExternalAccessory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7C9B6851AD5F71A008E30E4 /* ExternalAccessory.framework */; };
 /* End PBXBuildFile section */
 
@@ -70,13 +70,13 @@
 		7B34EFEA662420805AB6784A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		B24E9D7FC4A7DAAE52BB0DED /* Pods-Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tests/Pods-Tests.release.xcconfig"; sourceTree = "<group>"; };
 		B932C839F65F60AB021B92B6 /* Pods-ASRManager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ASRManager.release.xcconfig"; path = "Pods/Target Support Files/Pods-ASRManager/Pods-ASRManager.release.xcconfig"; sourceTree = "<group>"; };
-		C7C9B67B1AD5F699008E30E4 /* ASRManager.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ASRManager.mm; sourceTree = "<group>"; };
-		C7C9B67C1AD5F699008E30E4 /* ASRManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASRManager.h; sourceTree = "<group>"; };
-		C7C9B67F1AD5F6B2008E30E4 /* Eas.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Eas.h; sourceTree = "<group>"; };
-		C7C9B6801AD5F6B2008E30E4 /* libAreteUart.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libAreteUart.a; sourceTree = "<group>"; };
-		C7C9B6811AD5F6B2008E30E4 /* RcpBarcodeApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RcpBarcodeApi.h; sourceTree = "<group>"; };
-		C7C9B6821AD5F6B2008E30E4 /* RcpRfidApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RcpRfidApi.h; sourceTree = "<group>"; };
-		C7C9B6831AD5F6B2008E30E4 /* UartMgr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UartMgr.h; sourceTree = "<group>"; };
+		C740BECD1ADFB19600ACEEFB /* Eas.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Eas.h; sourceTree = "<group>"; };
+		C740BECE1ADFB19600ACEEFB /* libAreteUart.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libAreteUart.a; sourceTree = "<group>"; };
+		C740BECF1ADFB19600ACEEFB /* RcpBarcodeApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RcpBarcodeApi.h; sourceTree = "<group>"; };
+		C740BED01ADFB19600ACEEFB /* RcpRfidApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RcpRfidApi.h; sourceTree = "<group>"; };
+		C740BED11ADFB19600ACEEFB /* UartMgr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UartMgr.h; sourceTree = "<group>"; };
+		C740BED31ADFB23700ACEEFB /* ASRManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASRManager.h; sourceTree = "<group>"; };
+		C740BED41ADFB23700ACEEFB /* ASRManager.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ASRManager.mm; sourceTree = "<group>"; };
 		C7C9B6851AD5F71A008E30E4 /* ExternalAccessory.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ExternalAccessory.framework; path = System/Library/Frameworks/ExternalAccessory.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -86,11 +86,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				C7C9B6861AD5F71A008E30E4 /* ExternalAccessory.framework in Frameworks */,
-				C7C9B6841AD5F6B2008E30E4 /* libAreteUart.a in Frameworks */,
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
 				0FC6C5CA6EF20909A23D9DA2 /* libPods-ASRManager.a in Frameworks */,
+				C740BED21ADFB19600ACEEFB /* libAreteUart.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -111,6 +111,7 @@
 		4B6B3BBE743D2D8972C2EAB3 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
+				C740BECC1ADFB19600ACEEFB /* RcpLib */,
 				08609F3D2549B837C0F25A7C /* Pods-ASRManager.debug.xcconfig */,
 				B932C839F65F60AB021B92B6 /* Pods-ASRManager.release.xcconfig */,
 				15BC5F5DC380D75A5C173DE1 /* Pods-Tests.debug.xcconfig */,
@@ -157,9 +158,6 @@
 		6003F593195388D20070C39A /* ASRManager */ = {
 			isa = PBXGroup;
 			children = (
-				C7C9B67E1AD5F6B2008E30E4 /* RcpLib */,
-				C7C9B67B1AD5F699008E30E4 /* ASRManager.mm */,
-				C7C9B67C1AD5F699008E30E4 /* ASRManager.h */,
 				6003F59C195388D20070C39A /* ASRAppDelegate.h */,
 				6003F59D195388D20070C39A /* ASRAppDelegate.m */,
 				6003F59F195388D20070C39A /* Main_iPhone.storyboard */,
@@ -212,16 +210,19 @@
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
-		C7C9B67E1AD5F6B2008E30E4 /* RcpLib */ = {
+		C740BECC1ADFB19600ACEEFB /* RcpLib */ = {
 			isa = PBXGroup;
 			children = (
-				C7C9B67F1AD5F6B2008E30E4 /* Eas.h */,
-				C7C9B6801AD5F6B2008E30E4 /* libAreteUart.a */,
-				C7C9B6811AD5F6B2008E30E4 /* RcpBarcodeApi.h */,
-				C7C9B6821AD5F6B2008E30E4 /* RcpRfidApi.h */,
-				C7C9B6831AD5F6B2008E30E4 /* UartMgr.h */,
+				C740BED31ADFB23700ACEEFB /* ASRManager.h */,
+				C740BED41ADFB23700ACEEFB /* ASRManager.mm */,
+				C740BECD1ADFB19600ACEEFB /* Eas.h */,
+				C740BECE1ADFB19600ACEEFB /* libAreteUart.a */,
+				C740BECF1ADFB19600ACEEFB /* RcpBarcodeApi.h */,
+				C740BED01ADFB19600ACEEFB /* RcpRfidApi.h */,
+				C740BED11ADFB19600ACEEFB /* UartMgr.h */,
 			);
-			path = RcpLib;
+			name = RcpLib;
+			path = Pods/RcpLib;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -392,8 +393,8 @@
 			files = (
 				6003F59E195388D20070C39A /* ASRAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* ASRViewController.m in Sources */,
+				C740BED51ADFB23700ACEEFB /* ASRManager.mm in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
-				C7C9B67D1AD5F699008E30E4 /* ASRManager.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -537,6 +538,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/ASRManager/RcpLib",
+					"$(PROJECT_DIR)/Pods/RcpLib",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
@@ -557,6 +559,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/ASRManager/RcpLib",
+					"$(PROJECT_DIR)/Pods/RcpLib",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
