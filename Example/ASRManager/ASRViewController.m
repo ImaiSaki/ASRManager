@@ -2,74 +2,62 @@
 //  ASRViewController.m
 //  ASRManager
 //
-//  Created by Asterisk Inc. on 04/09/2015.
-//  Copyright (c) 2015 Asterisk Inc. All rights reserved.
+//  Created by koda on 04/09/2015.
+//  Copyright (c) 2014 koda. All rights reserved.
 //
 
-#import "ASRManager.h"
 #import "ASRViewController.h"
-#import <Foundation/Foundation.h>
+#import "ASRManager.h"
 
-@interface ASRViewController()
+
+@interface ASRViewController ()<ASRManagerDelegate>
+@property (weak, nonatomic) IBOutlet UITextField *myTextField;
 
 @end
 
 @implementation ASRViewController
 
-- (void)viewWillAppear:(BOOL)animated
+- (void)viewDidLoad
 {
-    [super viewWillAppear:animated];
+    [super viewDidLoad];
+
+    [[NSNotificationCenter defaultCenter]
+     addObserver:self
+     selector:@selector(appDidBecomActive:)
+     name:UIApplicationDidBecomeActiveNotification
+     object:nil];
     
-     NSLog(@"First ViewController : viewWillAppear");
+    [[NSNotificationCenter defaultCenter]
+     addObserver:self
+     selector:@selector(appWillTerminate:)
+     name:UIApplicationWillTerminateNotification
+     object:nil];
     
-    // 画面表示前にAsReaderSDKをセットして開始する
     [ASRManager sharedInstance].delegate = self;
 }
 
-- (void)viewWillDisappear:(BOOL)animated
-{
-    [super viewWillDisappear:animated];
-
-     NSLog(@"First ViewController : viewWillDisappear");
+- (void)appDidBecomActive:(NSNotification*)notification{
     
-    // 画面非表示にAsReaderSDKのデリゲートをnilに
-    [ASRManager sharedInstance].delegate = nil;
+    [[ASRManager sharedInstance] open];
 }
 
-#pragma mark Action
-
-- (IBAction)tapToClear:(id)sender {
-    _inputTextField.text = @"";
-}
-
-#pragma mark AsReaderManager Delegate Method
-
-
--(void)ASRManagerOnBarcodeScanned:(ASRManager *)manager value:(NSString *)value
+- (void)appWillTerminate:(NSNotification*) notification
 {
-    _inputTextField.text = value;
-    NSLog(@"First ViewController : ASRManagerOnBarcodeScanned");
-    [self performSegueWithIdentifier:@"pushToSecond" sender:self];
+    [[NSNotificationCenter defaultCenter] removeObserver:self];
+    NSLog(@"appWillTerminate\n");
 }
 
--(void)ASRManagerPlugged:(ASRManager *)manager isPlugged:(BOOL)isPlugged
+- (void)didReceiveMemoryWarning
 {
-    NSLog(@"First ViewController : ASRManagerPlugged");
+    [super didReceiveMemoryWarning];
+    // Dispose of any resources that can be recreated.
+}
+
+- (void)ASRManagerOnBarcodeScanned:(ASRManager *)manager value:(NSString *)value{
     
-    if(isPlugged)
-    {
-        NSLog(@"First ViewController : AsReader Plugged");
-    }
-    else
-    {
-        NSLog(@"First ViewController : AsReader Unplugged");
-    }
-}
-
--(void)ASRManagerBattery:(ASRManager *)manager battery:(int)battery
-{
-    NSLog(@"First ViewController : ASRManagerBattery");
-    NSLog(@"First ViewController : battery %d%%",battery);
+    dispatch_async(dispatch_get_main_queue(), ^{
+        _myTextField.text = value;
+    });
 }
 
 @end

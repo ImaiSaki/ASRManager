@@ -1,144 +1,41 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7531" systemVersion="14A389" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="RzT-wf-JYB">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6751" systemVersion="14C81f" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="vXZ-lx-hvc">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7520"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
     </dependencies>
     <scenes>
-        <!--Navigation Controller-->
-        <scene sceneID="bnx-2Q-qwa">
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
             <objects>
-                <navigationController id="RzT-wf-JYB" sceneMemberID="viewController">
-                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="ZTV-FE-8xg">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <connections>
-                        <segue destination="SF0-wd-jFy" kind="relationship" relationship="rootViewController" id="UmJ-LX-sd1"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="uFu-zI-aMi" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="226" y="355"/>
-        </scene>
-        <!--ASRManager First-->
-        <scene sceneID="CXL-Ei-NIe">
-            <objects>
-                <viewController id="SF0-wd-jFy" customClass="ASRViewController" sceneMemberID="viewController">
+                <viewController id="vXZ-lx-hvc" customClass="ASRViewController" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="FXd-hh-7k3"/>
-                        <viewControllerLayoutGuide type="bottom" id="sun-Nr-sNq"/>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="B54-8r-hoR">
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Bxc-gA-yMp">
-                                <rect key="frame" x="16" y="110" width="288" height="30"/>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" borderStyle="bezel" placeholder="Read Data" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="DTk-27-eyj">
+                                <rect key="frame" x="16" y="89" width="288" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g6d-ct-dW4">
-                                <rect key="frame" x="92" y="174" width="136" height="30"/>
-                                <color key="backgroundColor" red="0.98823529409999999" green="0.53333333329999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" title="Clear">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="tapToClear:" destination="SF0-wd-jFy" eventType="touchUpInside" id="dTm-Ss-iE0"/>
-                                </connections>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="バーコード" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="t9i-kW-fpp">
-                                <rect key="frame" x="63" y="254" width="195" height="31"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="33"/>
-                                <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="を読み込んでください" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Cu-zy-0Eo">
-                                <rect key="frame" x="51" y="293" width="219" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dkW-WT-fTv">
-                                <rect key="frame" x="50" y="354" width="220" height="44"/>
-                                <string key="text">バーコードを読むと
-次のページに進みます</string>
-                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" title="ASRManager First" id="otZ-CW-SEC"/>
-                    <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="blackOpaque"/>
-                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                     <connections>
-                        <outlet property="inputTextField" destination="Bxc-gA-yMp" id="mXD-yE-iuv"/>
-                        <segue destination="CJW-AV-w9Y" kind="push" identifier="pushToSecond" id="lds-Gr-L8x"/>
+                        <outlet property="myTextField" destination="DTk-27-eyj" id="jki-U2-v9Z"/>
                     </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="8qs-bw-nqq" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="630" y="355"/>
-        </scene>
-        <!--ASRManager Second-->
-        <scene sceneID="Apc-jU-clt">
-            <objects>
-                <viewController storyboardIdentifier="secondVC" id="CJW-AV-w9Y" customClass="ASRSecondViewController" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="pmL-6g-bn8"/>
-                        <viewControllerLayoutGuide type="bottom" id="xpr-7Y-JxK"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="9GR-hI-17D">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8n8-kM-Dp2">
-                                <rect key="frame" x="0.0" y="20" width="320" height="44"/>
-                                <items>
-                                    <navigationItem title="Second" id="7ze-Ks-b0X"/>
-                                </items>
-                            </navigationBar>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="i0g-qQ-i8f">
-                                <rect key="frame" x="16" y="110" width="288" height="30"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9Yw-yH-7Xy">
-                                <rect key="frame" x="92" y="174" width="136" height="30"/>
-                                <color key="backgroundColor" red="0.98823529409999999" green="0.53333333329999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" title="Clear">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="tapToClear:" destination="CJW-AV-w9Y" eventType="touchUpInside" id="XDZ-BC-fcj"/>
-                                </connections>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="abj-GO-YLX">
-                                <rect key="frame" x="57" y="253" width="207" height="62"/>
-                                <string key="text">バーコード用の
-サンプルアプリです</string>
-                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
-                        <color key="backgroundColor" red="0.80000001192092896" green="0.80000001192092896" blue="0.80000001192092896" alpha="1" colorSpace="calibratedRGB"/>
-                    </view>
-                    <navigationItem key="navigationItem" title="ASRManager Second" id="dka-wa-GPy"/>
-                    <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="blackOpaque"/>
-                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
-                    <connections>
-                        <outlet property="SecondInputTextField" destination="i0g-qQ-i8f" id="N45-dt-DmO"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="z1i-cz-OoE" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1009" y="355"/>
         </scene>
     </scenes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
 </document>
