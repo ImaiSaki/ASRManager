@@ -1,16 +1,16 @@
 //
-//  ASR510RManager.h
-//  SampleASManager
+//  ASRManager.h
+//  ASRManager
 //
-//  Created by Asterisk on 2014/11/12.
-//  Copyright (c) 2014年 Asterisk. All rights reserved.
+//  Created by Asterisk Inc. on 04/09/2015.
+//  Copyright (c) 2015 Asterisk Inc. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
 #import "RcpBarcodeApi.h"
 
 /**
- * AsReaderSDKの管理クラス(510R[AsReader2])
+ * AsReaderSDKの管理クラス
  * 補足 : 画面遷移する際に、delegateをviewWillAppearで設定し、
  * 　　   viewWillDisappearでdelegate=nilを行ってください。
  * 　　   複数にdelegateが設定されていると落ちます。
@@ -53,9 +53,6 @@
 @optional
 /** スキャン時のデリゲートメソッド */
 - (void)ASRManagerOnBarcodeScanned:(ASRManager *)manager value:(NSString *)value;
-
-/** スキャン時のデリゲートメソッド (NSDataで渡す）*/
-//- (void)ASManagerOnBarcodeScannedwithRowData:(ASManager *)manager value:(NSData *)data;
 
 /** AsReaderとの接続状態に変更があった場合のデリゲートメソッド */
 - (void)ASRManagerPlugged:(ASRManager *)manager isPlugged:(BOOL)isPlugged;

@@ -1,9 +1,9 @@
 //
-//  ASR510RManager.m
-//  SampleASManager
+//  ASRManager.mm
+//  ASRManager
 //
-//  Created by Asterisk on 2014/11/12.
-//  Copyright (c) 2014年 Asterisk. All rights reserved.
+//  Created by Asterisk Inc. on 04/09/2015.
+//  Copyright (c) 2015 Asterisk Inc. All rights reserved.
 //
 
 #import "ASRManager.h"
