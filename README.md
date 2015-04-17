@@ -1,7 +1,5 @@
 ![AsReader](https://github.com/asx-co-jp/ASRManager/blob/master/logo.png?raw=true)
 
-# ASRManager
-
 Convenience library  for AsReader
 =======
 
