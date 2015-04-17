@@ -1,5 +1,5 @@
 # ASRManager
-<<<<<<< HEAD
+
 Convenience library  for AsReader
 =======
 
