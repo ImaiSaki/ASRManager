@@ -1,4 +1,4 @@
-![AsReader](https://github.com/asx-co-jp/ASRManager/blob/feature/edit-readme/logo.png?raw=true)
+![AsReader](https://github.com/asx-co-jp/ASRManager/blob/master/logo.png?raw=true)
 
 # ASRManager
 
