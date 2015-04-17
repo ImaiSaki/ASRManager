@@ -2,8 +2,8 @@
 //  ASRAppDelegate.h
 //  ASRManager
 //
-//  Created by CocoaPods on 04/09/2015.
-//  Copyright (c) 2014 koda. All rights reserved.
+//  Created by Asterisk Inc. on 04/09/2015.
+//  Copyright (c) 2015 Asterisk Inc. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
