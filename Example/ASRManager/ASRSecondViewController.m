@@ -16,13 +16,15 @@
 
 @implementation ASRSecondViewController
 
+#pragma mark - view Lifecycle
+
 - (void)viewWillAppear:(BOOL)animated
 {
     [super viewWillAppear:animated];
     
      NSLog(@"Second ViewController : viewWillAppear");
     
-    // 画面表示前にAsReaderSDKをセットして開始する
+    // Before view appears, Set AsReader SDK delegate
     [ASRManager sharedInstance].delegate = self;
 }
 
@@ -32,23 +34,24 @@
     
      NSLog(@"Second ViewController : viewWillDisappear");
     
-    // 画面非表示にAsReaderSDKのデリゲートをnilに
+    // Before view disappears, Remove AsReader SDK delegate
     [ASRManager sharedInstance].delegate = nil;
 }
 
-#pragma mark Action
+#pragma mark - Button Action
 
-- (IBAction)tapToClear:(id)sender {
+- (IBAction)tapToClear:(id)sender
+{
     _SecondInputTextField.text = @"";
 }
 
-#pragma mark AsReaderManager Delegate Method
+#pragma mark - AsReaderManager Delegate Method
 
 -(void)ASRManagerOnBarcodeScanned:(ASRManager *)manager value:(NSString *)value
 {
     NSLog(@"Second ViewController : ASRManagerOnBarcodeScanned");
+    
     _SecondInputTextField.text = value;
-
 }
 
 -(void)ASRManagerPlugged:(ASRManager *)manager isPlugged:(BOOL)isPlugged
