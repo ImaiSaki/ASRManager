@@ -25,9 +25,9 @@ pod "ASRManager"
 
 ## Author
 
-koda, koda@asx.co.jp
+Asterisk.inc Technical Team, tech@asx.co.jp
 
 ## License
 
 ASRManager is available under the MIT license. See the LICENSE file for more info.
->>>>>>> release/0.1.0
+
