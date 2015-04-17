@@ -16,19 +16,14 @@
 
 @implementation ASRViewController
 
-#pragma mark - view Lifecycle
-
 - (void)viewWillAppear:(BOOL)animated
 {
     [super viewWillAppear:animated];
     
      NSLog(@"First ViewController : viewWillAppear");
     
-    // Before view appears, Set AsReader SDK delegate
+    // 画面表示前にAsReaderSDKをセットして開始する
     [ASRManager sharedInstance].delegate = self;
-    
-    // Open session and AsReader Power ON
-    [[ASRManager sharedInstance] open];
 }
 
 - (void)viewWillDisappear:(BOOL)animated
@@ -37,43 +32,26 @@
 
      NSLog(@"First ViewController : viewWillDisappear");
     
-    // Before view disappears, Remove AsReader SDK delegate
+    // 画面非表示にAsReaderSDKのデリゲートをnilに
     [ASRManager sharedInstance].delegate = nil;
 }
 
-#pragma mark - Button Action
+#pragma mark Action
 
-- (IBAction)tapToClear:(id)sender
-{
+- (IBAction)tapToClear:(id)sender {
     _inputTextField.text = @"";
 }
 
-#pragma mark - AsReaderManager Delegate Method
+#pragma mark AsReaderManager Delegate Method
 
-/**
- *    When AsReader scans barcode, call ASRManagerOnBarcodeScanned Method
- *
- *    @param manager ASRManager
- *    @param value   Scanned bar code
- */
+
 -(void)ASRManagerOnBarcodeScanned:(ASRManager *)manager value:(NSString *)value
 {
-     NSLog(@"First ViewController : ASRManagerOnBarcodeScanned");
-    
     _inputTextField.text = value;
-    
-    // Move Next Page
+    NSLog(@"First ViewController : ASRManagerOnBarcodeScanned");
     [self performSegueWithIdentifier:@"pushToSecond" sender:self];
 }
 
-/**
- *    When changes AsReader's connection status, call ASRManagerPlugged Method
- *
- *    @param manager   ASRManager
- *    @param isPlugged AsReader's connection status
- *                     true  : AsReader plugged
- *                     false : AsReader unplugged
- */
 -(void)ASRManagerPlugged:(ASRManager *)manager isPlugged:(BOOL)isPlugged
 {
     NSLog(@"First ViewController : ASRManagerPlugged");
@@ -88,15 +66,6 @@
     }
 }
 
-/**
- *    When receives AsReader's battery status, call ASRManagerBattery Method
- *
- *    @param manager ASRManager
- *    @param battery AsReader's battery status
- *                   Max        : 100
- *                   Mix        :   0
- *                   increments :  25
- */
 -(void)ASRManagerBattery:(ASRManager *)manager battery:(int)battery
 {
     NSLog(@"First ViewController : ASRManagerBattery");
