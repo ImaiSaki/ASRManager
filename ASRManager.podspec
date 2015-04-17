@@ -9,7 +9,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "ASRManager"
-  s.version          = "0.1.8"
+  s.version          = "0.1.9"
   s.summary          = "ASRManager make app easier to use AsReader."
   s.homepage         = "https://github.com/asx-co-jp/ASRManager"
   s.license          = 'MIT'
