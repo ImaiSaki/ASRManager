@@ -9,11 +9,11 @@
 
 Pod::Spec.new do |s|
   s.name             = "ASRManager"
-  s.version          = "0.1.3"
+  s.version          = "0.1.4"
   s.summary          = "ASRManager make app easier to use AsReader."
   s.homepage         = "https://github.com/asx-co-jp/ASRManager"
   s.license          = 'MIT'
-	s.author           = { "Asterisk.inc Technlical Team" => "tech@asx.co.jp" }
+	s.author           = { "Asterisk.inc Technical Team" => "tech@asx.co.jp" }
   s.source           = { :git => "https://github.com/asx-co-jp/ASRManager.git", :tag => s.version.to_s }
   s.platform     = :ios, '7.0'
   s.requires_arc = true
