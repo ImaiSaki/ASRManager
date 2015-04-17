@@ -37,17 +37,17 @@ pod "ASRManager"
 [[ASRManager sharedInstance] open];
 ```
 
-### Close connection with AsReader.
+#### Close connection with AsReader.
 ```objective-c
 [[ASRManager sharedInstance] close];
 ```
 
-### Start to read a barcode.
+#### Start to read a barcode.
 ```objective-c
 [[ASRManager sharedInstance] startReadBarcodeOnce];
 ```
 
-### Stop to read a barcode.
+#### Stop to read a barcode.
 ```objective-c
 [[ASRManager sharedInstance] stopReadBarcode];
 ```
